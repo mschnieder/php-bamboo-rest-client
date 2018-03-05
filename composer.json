@@ -2,6 +2,7 @@
     "name": "mschnieder/php-bamboo-rest-client",
     "description": "BAMBOO REST API Client for PHP Users.",
     "type": "library",
+    "version": "1.0.1",
     "keywords": ["bamboo", "rest", "bamboo-php", "bamboo-rest", "bamboo-api"],
     "require": {
         "php": ">=5.5.9",
