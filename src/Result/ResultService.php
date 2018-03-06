@@ -75,8 +75,6 @@ class ResultService extends \BambooRestApi\BambooClient
 	public function getJiraIssues($projectkey) {
 		$ret = $this->exec($this->uri.'/'.$projectkey.'/.json?expand=results.result.jiraIssues&max-results=500', null);
 
-		echo $ret;
-
 		$prjs = $this->json_mapper->map(
 			json_decode($ret, false), new Result()
 		);
